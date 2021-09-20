@@ -18,8 +18,5 @@ namespace Exercicio1
             this.quant = quant;
             this.produto = produto;
         }
-
-        
-
     }
 }

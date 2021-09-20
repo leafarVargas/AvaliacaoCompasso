@@ -32,8 +32,6 @@ namespace Exercicio1
 
             return cardapioList;
         }
-
-        
     }
 
 }

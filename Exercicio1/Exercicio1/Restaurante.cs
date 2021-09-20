@@ -21,7 +21,6 @@ namespace Exercicio1
             mesas[1] = 2;
             mesas[2] = 3;
             mesas[3] = 4;
-
         }
         
         private static bool Menu()
@@ -72,14 +71,17 @@ namespace Exercicio1
 
                             if (prod == 999)
                             {
-                                return exibecardapio = false;
+                                return !exibecardapio;
                             }
-                    }
+
+                         }
+
                     return true;
-                
+
                 case "2":
 
                     return false;
+                        
                 
                 default:
                     return true;
