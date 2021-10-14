@@ -7016,11 +7016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\azrha\\Desktop\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5.csproj",
+      "projectUniqueName": "C:\\Users\\azrha\\Desktop\\Compasso\\Avaliação URI\\AvaliacaoCompasso\\Sprint5 (Clientes e Cidades)\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5.csproj",
       "projectName": "ProjetoSprint5",
-      "projectPath": "C:\\Users\\azrha\\Desktop\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5.csproj",
+      "projectPath": "C:\\Users\\azrha\\Desktop\\Compasso\\Avaliação URI\\AvaliacaoCompasso\\Sprint5 (Clientes e Cidades)\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5.csproj",
       "packagesPath": "C:\\Users\\azrha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\azrha\\Desktop\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5\\obj\\",
+      "outputPath": "C:\\Users\\azrha\\Desktop\\Compasso\\Avaliação URI\\AvaliacaoCompasso\\Sprint5 (Clientes e Cidades)\\ProjetoSprint5\\ProjetoSprint5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\azrha\\AppData\\Roaming\\NuGet\\NuGet.Config",

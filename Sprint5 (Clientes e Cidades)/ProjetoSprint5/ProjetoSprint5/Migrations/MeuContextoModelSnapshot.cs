@@ -54,11 +54,17 @@ namespace ProjetoSprint5.Migrations
                     b.Property<string>("datanascimento")
                         .HasColumnType("text");
 
+                    b.Property<string>("localidade")
+                        .HasColumnType("text");
+
                     b.Property<string>("logradouro")
                         .HasColumnType("text");
 
                     b.Property<string>("nome")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("uf")
                         .HasColumnType("text");
 
                     b.HasKey("id");

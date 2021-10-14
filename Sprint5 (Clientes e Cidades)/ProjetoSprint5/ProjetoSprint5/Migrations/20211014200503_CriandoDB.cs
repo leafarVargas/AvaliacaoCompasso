@@ -3,7 +3,7 @@ using MySql.EntityFrameworkCore.Metadata;
 
 namespace ProjetoSprint5.Migrations
 {
-    public partial class CriarTabelasDoBanco : Migration
+    public partial class CriandoDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -31,8 +31,10 @@ namespace ProjetoSprint5.Migrations
                     datanascimento = table.Column<string>(type: "text", nullable: true),
                     cidadeID = table.Column<int>(type: "int", nullable: false),
                     cep = table.Column<string>(type: "text", nullable: false),
+                    uf = table.Column<string>(type: "text", nullable: true),
                     logradouro = table.Column<string>(type: "text", nullable: true),
-                    bairro = table.Column<string>(type: "text", nullable: true)
+                    bairro = table.Column<string>(type: "text", nullable: true),
+                    localidade = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {

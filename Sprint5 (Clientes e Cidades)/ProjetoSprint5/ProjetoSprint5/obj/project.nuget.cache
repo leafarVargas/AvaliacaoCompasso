@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X2P5o8yFDcjvBPxKhPdXJBA/mX/u4OaRwYGCSuXSC+D790jV5iBVk43UpyzfJMBy3viRmLsaggpyTa7G1A0a3A==",
+  "dgSpecHash": "FkzssSRUUW22Tdhif3xl45AJOxHZdOUgnVyvnzoTyU7TRKFwcI4z0s/tp3iJIpCUQl/bTBD4Qg/YdpV0OREGcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\azrha\\Desktop\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5.csproj",
+  "projectFilePath": "C:\\Users\\azrha\\Desktop\\Compasso\\Avaliação URI\\AvaliacaoCompasso\\Sprint5 (Clientes e Cidades)\\ProjetoSprint5\\ProjetoSprint5\\ProjetoSprint5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azrha\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\azrha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
