@@ -21,7 +21,11 @@ namespace ProjetoSprint5.Modelos
         [Required(ErrorMessage = " O cliente deve ter um CEP")]
         public string cep { get; set; }
 
+        public string uf { get; set; }
+
         public string logradouro { get; set; }
         public string bairro { get; set; }
+        public string localidade { get; set; }
     }
+
 }

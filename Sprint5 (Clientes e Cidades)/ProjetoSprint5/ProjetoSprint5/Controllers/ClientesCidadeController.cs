@@ -50,6 +50,7 @@ namespace ProjetoSprint5.Controllers
         [HttpPost("AdicionarCidade")]
         public IActionResult AdicionaCidade([FromBody] CreateCidadeDTO cidadeDTO)
         {
+
             Cidade cidade = _mapper.Map<Cidade>(cidadeDTO);
 
             __contextoGeral.Cidades.Add(cidade);
@@ -64,6 +65,8 @@ namespace ProjetoSprint5.Controllers
 
             Cliente cliente = _mapper.Map<Cliente>(clienteDTO);
             
+            Cidade cidade = new Cidade();
+            
             client.BaseAddress = new Uri("https://viacep.com.br/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
@@ -74,24 +77,29 @@ namespace ProjetoSprint5.Controllers
             cliente.logradouro = localizacao.logradouro;
             cliente.bairro = localizacao.bairro;
             cliente.cep = localizacao.cep;
+            cliente.localidade = localizacao.localidade;
 
-            
+            cliente.cidadeID++;
+            cidade.id = cliente.cidadeID;
+            cidade.nome = localizacao.localidade;
+            cidade.estado = localizacao.uf;
+
             __contextoGeral.Clientes.Add(cliente);
+            __contextoGeral.Cidades.Add(cidade);
             __contextoGeral.SaveChanges();
+
             return CreatedAtAction(nameof(BuscarCliente), new { id = cliente.id }, cliente);
         }
 
         [HttpGet("Cidades")]
         public IEnumerable<Cidade> ListarCidades()
         {
-            Console.WriteLine("Entrou em listar cidades");
             return __contextoGeral.Cidades;
         }
 
         [HttpGet("Clientes")]
         public IEnumerable<Cliente> ListarClientes()
         {
-            Console.WriteLine("Entrou em listar clientes");
             return __contextoGeral.Clientes;
         }
 
